@@ -1,0 +1,45 @@
+Project Setup:
+
+Create a new Django project named file_upload_api.
+
+Set up a new Django app called file_manager.
+
+Models:
+
+Create a model UploadedFile that stores metadata about the uploaded files, such as:
+
+file: the actual file being uploaded.
+
+uploaded_at: a timestamp of when the file was uploaded.
+
+file_size: size of the uploaded file in bytes.
+
+Views:
+
+Create views to handle the following:
+
+Upload a File: A POST endpoint that allows users to upload a file.
+
+List Uploaded Files: A GET endpoint that lists all uploaded files, including metadata (filename, upload time, and file size).
+
+Retrieve File: A GET endpoint that allows users to download a specific file by its ID.
+
+Delete File: A DELETE endpoint to remove a specific file by its ID.
+
+Serializers:
+
+Create serializers for the UploadedFile model to handle serialization and deserialization for API requests and responses.
+
+URL Routing:
+
+Set up appropriate URL routing for the API endpoints mentioned above.
+
+File Storage:
+
+Ensure files are saved in the MEDIA_ROOT directory on the server and the directory is configurable via Django settings.
+
+Ensure the API responses return proper URLs to download the files.
+
+Testing:
+
+Write unit tests for each of the endpoints to ensure the functionality works as expected.

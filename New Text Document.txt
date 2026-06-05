@@ -1,0 +1,38 @@
+Feel Free to customize the models, need not to be exact.
+
+
+
+Models Required:
+Product Model
+
+Category Model
+
+API Endpoints
+List Products: Create an API endpoint to list all products.
+
+Retrieve Product: Create an API endpoint to retrieve a specific product by its ID.
+
+Filter Products: Add filtering options for:
+
+Price range: Filter products based on a minimum and maximum price.
+
+Category: Filter products by category.
+
+Availability: Filter products based on availability (available or not available).
+
+Sort Products: Implement sorting options for:
+
+Price: Sort products by price in ascending or descending order.
+
+Name: Sort products by name in alphabetical order.
+
+Advanced Querying: Allow users to combine filters and sorting in a single request.
+
+Questions for this assignment
+What kind of database schema would best support the querying requirements for this product listing? Should you normalize the product categories into a separate table or keep them as part of the product entity?
+
+Will there be rate-limiting on these endpoints to prevent abuse? How did you implement it ?
+
+Would indexing specific columns (like price or availability) improve query performance for large datasets, and if so, which indices would be most effective?
+
+Should you prefer using query parameters for filtering and sorting (or) sending payload as a body ?
