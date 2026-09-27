@@ -1,14 +1,3 @@
-# Django Project
-
-## 📌 About
-...
-
-## ✨ Features
-...
-
-## 🛠️ Technologies
-...
-
 ## 📋 Prerequisites
 
 - Python 3.x
@@ -55,21 +44,3 @@ python manage.py runserver
 ### 8. Open in browser
 
 http://127.0.0.1:8000/
-
-## 📁 Project Structure
-...
-
-## 🔐 Security Features
-...
-
-## 🔌 API Documentation
-...
-
-## ⚙️ Configuration
-...
-
-## 🐛 Troubleshooting
-...
-
-## 👨‍💻 Author
-...
